@@ -1,0 +1,41 @@
+.logo-img {
+    width: 300px;
+    height: 80px;
+}
+
+.newsletter .form-control {
+    border-color: #ffffff;
+    border-radius:0;
+}
+
+.newsletter .btn {
+    border-radius:0;
+    color: #fff;
+}
+
+.line {
+    margin:0 0 1em;
+	line-height:2em;
+	padding:0;
+	color:#F00;
+	text-shadow:1px 1px 1px #000;
+	font-size:1.5em;
+	position:relative;
+	overflow:hidden;
+	text-align:center;
+}
+.line:before,.line:after {
+	content:" ";
+	position:absolute;
+	top:50%;
+	margin-left:-999em;
+	height:2px;
+	width:998em;
+	border-top:1px solid blue;
+	background:rgba(0,0,0,0.2);
+}
+.line:after {
+	left:auto;
+	width:999em;
+	margin:0 0 0 1em;
+}
